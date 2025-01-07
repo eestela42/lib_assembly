@@ -1,0 +1,25 @@
+• You must write 64 bits ASM. Beware of the "calling convention".
+
+• You can’t do inline ASM, you must do ’.s’ files.
+compile your assembly code with nasm.
+
+Intel syntax, not the AT&T.
+
+
+
+
+ RB -> base de la stack
+
+
+
+ RAX (Accumulateur)
+ RBX (Base)
+ RCX (Compteur)
+ RDX (Données)
+ RSP (Sommet de Pile)
+ RBP (Base de Pile)
+ RSI (Source Index)
+ RDI (Destination Index)
+
+
+
