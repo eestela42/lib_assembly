@@ -26,6 +26,8 @@ $(NAME_LIB): $(OBJS)
 test: $(NAME_LIB)
 	$(CC) main.c -L. -lasm -o test
 
+retest: re test
+
 clean:
 	rm -f $(OBJS) 
 

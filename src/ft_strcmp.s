@@ -12,7 +12,7 @@ ft_strcmp:
 		inc rdi
 		inc rsi
 		jmp loop
-	
+		
 	exit:
 		movzx rax, al
 		movzx r8, bl
